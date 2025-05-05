@@ -21,17 +21,19 @@ body {
   cursor: pointer;
 }
 #canvas {
-  margin: auto;
+  display: block;
+  margin: 0 auto;
   background: #cacaca;
-  width: 400px;
-  height: 300px;
-  margin-left: 140px;
+  width: 100%;
+  max-width: 100%; /* Responsive width */
+  height: auto;
   background-image: url(./images/image-bg.png);
   background-size: 150px;
   background-repeat: no-repeat;
   background-position: center center;
   border: 2px solid orange;
 }
+
 
 .navbar-brand {
   margin: 0 auto;
